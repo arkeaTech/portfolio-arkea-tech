@@ -11,9 +11,9 @@
 :root {
     --font-grande: 'TT Hoves Pro Trial', sans-serif;
     --font-pequena: 'ClashGrotesk-Light', sans-serif;
-    --color-black: #000;
-    --color-gray1: #3d4143;
-    --color-gray2: #9c9d9d;
+    --color-black: #244938;
+    --color-gray1: #27503E;
+    --color-gray2: #ffffff;
     --color-white: #f6f6f6;
     --color-destaque1: #1D7EA6;
     --color-destaque2: #728e6f;
@@ -25,7 +25,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--color-black);
+    background:  var(--color-black);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -43,7 +43,7 @@ html {
 }
 
 body {
-    background-color: var(--color-black);
+    background-color:  var(--color-black);
     width: 100%;
     display: flex;
     align-items: center;
@@ -139,7 +139,7 @@ a {
     justify-content: space-between;
     z-index: 99;
     transition: top 0.3s ease-in-out;
-    background-color: rgba(0, 0, 0, .9); 
+    background-color: #244938; 
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); 
 }
@@ -692,7 +692,7 @@ a {
 
 /*************** Projetos *****/
 .servicos {
-    background-color: var(--color-white);
+    background-color: #244938;
     width: 100vw;
     height: 100%;
     display: flex;
@@ -702,7 +702,7 @@ a {
 }
 
 .container-servicos {
-    background-color: var(--color-white);
+    background-color: #244938;
     width: 100%;
     max-width: 1400px;
     height: 100%;
@@ -729,7 +729,7 @@ a {
 }
 
 .titulo-servicos h1 {
-    color: var(--color-black);
+    color: #ffffff;
     width: 50%;
     font-size: 8vw;
     font-weight: lighter;
@@ -755,7 +755,7 @@ a {
 }
 
 .card-servicos {
-    border: 1px solid hsla(0, 0%, 0%, 0.35);
+    border: 1px solid hsl(0, 0%, 100%);
     max-width: 95%;
     min-height: 180px;
     border-radius: 150px;
@@ -767,7 +767,7 @@ a {
 
 .card-servicos-left {
     margin-left: 5%;
-    border: 1px solid hsla(0, 0%, 0%, 0.35);
+    border: 1px solid hsl(0, 0%, 100%);
     width: 95%;
     min-height: 180px;
     border-radius: 150px;
@@ -783,13 +783,14 @@ a {
     font-size: clamp(0.8rem, 2.5vw + .4rem, 2rem);
     font-family: var(--font-pequena);
     font-weight: normal;
+    color: white;
 }
 
 .card-icon {
     width: 25%;
     max-width: 120px;
     height: 60px;
-    border: 1px solid hsla(0, 0%, 0%, 0.35);
+    border: 1px solid hsl(0, 0%, 100%);
     border-radius: 100px;
     display: flex;
     flex-direction: column;
@@ -799,7 +800,7 @@ a {
 
 .card-icon i {
     font-size: 2rem;
-    color: var(--color-gray1);
+    color:white;
     margin-bottom: -7px;
 }
 
