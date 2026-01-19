@@ -9,9 +9,24 @@
 }
 
 :root {
+
+    --bg-main:
+        radial-gradient(
+            1400px 700px at 50% 120px,
+            rgba(255, 255, 255, 0.30),
+            rgba(255, 255, 255, 0) 65%
+        ),
+        linear-gradient(
+            180deg,
+            #213f33 0%,
+            #244938 50%,
+            #213f33 100%
+        );
+
+
     --font-grande: 'TT Hoves Pro Trial', sans-serif;
     --font-pequena: 'ClashGrotesk-Light', sans-serif;
-    --color-black: #000;
+    --color-black: #244938;
     --color-gray1: #3d4143;
     --color-gray2: #9c9d9d;
     --color-white: #f6f6f6;
@@ -43,7 +58,8 @@ html {
 }
 
 body {
-    background-color: var(--color-black);
+    background: var(--bg-main);
+    
     width: 100%;
     display: flex;
     align-items: center;
