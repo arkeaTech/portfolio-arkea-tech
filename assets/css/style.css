@@ -15,8 +15,8 @@
     --color-gray1: #27503E;
     --color-gray2: #ffffff;
     --color-white: #f6f6f6;
-    --color-destaque1: #1D7EA6;
-    --color-destaque2: #728e6f;
+    --color-destaque1: #000000;
+    --color-destaque2: #ffffff;
 }
 
 /* Estilizando a barra de rolagem */
@@ -191,7 +191,7 @@ a {
 
 /* Menu Navegação */
 .menu-aberto {
-    background-color: var(--color-black);
+    background-color: var(--color-gray1);
     position: fixed;
     left: 0;
     top: 0;
@@ -1146,8 +1146,8 @@ a {
 }
 
 .btn {
-    background-color: var(--color-destaque1);
-    color: var(--color-black);
+    background-color: var(--color-black);
+    color: white;
     font-weight: bold;
     width: 190px;
     padding: 1rem 0rem;
