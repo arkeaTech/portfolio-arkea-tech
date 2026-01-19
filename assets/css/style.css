@@ -540,7 +540,7 @@ a {
     justify-content: right;
     align-items: right;
     position: absolute;
-    width: 40%;
+    width: 60%;
     height: 40%;
     border-radius: 30%;
 }
@@ -1165,7 +1165,7 @@ a {
 }
 
 .logo-contato img {
-    width: 80%;
+    width: 65%;
     border-radius: 36px;
 }
 
